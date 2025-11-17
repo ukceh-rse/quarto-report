@@ -19,10 +19,10 @@
   abstract: none,
   abstract-title: none,
   cols: 1,
-  margin: (x: 1.25in, y: 1.25in),
-  paper: "us-letter",
+  margin: (x: 2.5cm, y: 2.5cm),
+  paper: "a4",
   lang: "en",
-  region: "US",
+  region: "UK",
   font: "libertinus serif",
   fontsize: 11pt,
   title-size: 1.5em,
@@ -74,7 +74,7 @@
 
   if authors != none {
     let count = authors.len()
-    let ncols = calc.min(count, 3)
+    let ncols = calc.min(count, 2)
     grid(
       columns: (1fr,) * ncols,
       row-gutter: 1.5em,
