@@ -19,7 +19,7 @@
   abstract: none,
   abstract-title: none,
   cols: 1,
-  margin: (x: 2.5cm, y: 2.5cm),
+  margin: (x: 2.5cm, y: 3.0cm),
   paper: "a4",
   lang: "en",
   region: "UK",
