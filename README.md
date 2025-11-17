@@ -1,17 +1,16 @@
-# Typst Format
+**WIP**
 
-## Installing
+# Quarto/Typst report template
 
-_TODO_: Replace the `<github-organization>` with your GitHub organization.
+## Installation
+
+Use with the brand-yml theme.
 
 ```bash
-quarto use template <github-organization>/typst
+quarto use template ukceh-rse/quarto-report
+quarto add ukceh-rse/brand-yml
 ```
 
 This will install the format extension and create an example qmd file
 that you can use as a starting place for your document.
-
-## Using
-
-_TODO_: Describe how to use your format.
 
